@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Goldman&display=swap');
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+.card-white {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 16px auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-white2 {
+    margin: 30px auto;
+}
+
+.card-white3 {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 16px auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(80, 7, 95);
+    font-size: 30px;
+    font-family: 'Goldman', cursive;
+}
+
+h2 {
+    color: rgb(4, 135, 69);
+    font-size: 25px;
+    font-family: 'Goldman', cursive;
+}
+
+p {
+    color: rgb(65, 60, 67);
+    font-family: Verdana, Geneva;
+}
+
+ul {
+    color: rgb(65, 60, 67);
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: rgb(80, 7, 95);
+}
+
+.btn-perfil {
+    background-color: rgb(80, 7, 95);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.btn-perfil:hover {
+    background-color: #ffffff;
+    color: rgb(80, 7, 95);
+    border-style: solid;
+    border-color: rgb(80, 7, 95);
+    font-weight: bold;
+    font-family: 'Goldman', cursive;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 150px;
+    border-style: inset;
+    border-color: rgb(80, 7, 95);
+}
+
+.shadowed {
+    box-shadow: 5px 5px 3px rgb(193, 193, 193);
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.social-icon {
+    color: rgb(80, 7, 95);
+    font-size: 40px;
+}
+
+.social-icon:hover {
+    color: rgb(134, 134, 134);
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  
